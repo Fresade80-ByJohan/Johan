@@ -17,8 +17,8 @@ local LocalPlayer = Players.LocalPlayer
 
 -- Variables globales
 _G.whitelistedPlayers = _G.whitelistedPlayers or {}
-if not table.find(_G.whitelistedPlayers, "MissSherya") then
-    table.insert(_G.whitelistedPlayers, "MissSherya")
+if not table.find(_G.whitelistedPlayers, "by Johan") then
+    table.insert(_G.whitelistedPlayers, "by Johan")
 end
 
 local connections = {}
@@ -34,8 +34,8 @@ local function safeCall(func, ...)
 end
 
 -- UI Window
-local window = library:AddWindow("Sherya Script", {
-    main_color = Color3.fromRGB(75, 0, 130),
+local window = library:AddWindow("Clan JX7 Script", {
+    main_color = Color3.fromRGB(255, 0, 0),
     min_size = Vector2.new(600, 650),
     can_resize = true,
 })
@@ -3310,21 +3310,19 @@ end
 -- CREDITS TAB
 -- ============================================================================
 
-local credits = {
-    "â•­â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•®",
-    "   Script hecho por Isabella",
-    "â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â•¯",
+local credits ",
+    "  Scrip echo por Johan ",
     "",
-    "User de Roblox: MissSherya",
-    "Instagram: Sherya_Luck",
-    "TikTok: Sherya6000",
-    "Discord: isabella_hrz",
+    "User de Roblox: Fresade80",
+    "Tiktok: johan13098",
+    "Discord: johan041258",
+    "Ayudantes: Max JX7,Junior JX7",
     "",
-    "Thanks por usar el script",
+    "Gracias por usar el script",
     "",
     "Recomienda el script para hacer mas actualizaciones",
-    "Hago peticiones de otros juegos",
-    "Diviertete amiguito"
+    "Actualización OP este Hallowen🎃",
+    "Diviertete usándoel script"
 }
 
 for _, credit in pairs(credits) do
