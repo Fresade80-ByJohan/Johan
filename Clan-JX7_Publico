@@ -3315,14 +3315,11 @@ local credits = {
     "   Script hecho por Johan",
     "╰──────────────────────────╯",
     "User de Roblox: Fresade80",
-    ": ",
     "TikTok: johan13098",
     "Discord: johan041258",
-    "",
     "Thanks por usar el script",
-    "",
     "Recomienda el script para hacer mas actualizaciones",
-    "Hago peticiones de otros juegos",
+    "Ayudantes: Max JX7,...",
     "Diviertete amiguito"
 }
 
@@ -3331,7 +3328,7 @@ for _, credit in pairs(credits) do
 end
 
 creditsTab:AddButton("Servidor Discord", function()
-    setclipboard("https://discord.gg/Wr9abVw3UR")
+    setclipboard("https://discord.gg/8A49H5S6P")
 end)
 
 -- ============================================================================
