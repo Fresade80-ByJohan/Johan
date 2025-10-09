@@ -35,7 +35,7 @@ end
 
 -- UI Window
 local window = library:AddWindow("Clan JX7", {
-    main_color = Color3.fromRGB(75, 0, 130),
+    main_color = Color3.fromRGB(255, 0, 0),
     min_size = Vector2.new(600, 650),
     can_resize = true,
 })
